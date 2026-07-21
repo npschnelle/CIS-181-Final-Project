@@ -1,0 +1,174 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/*
+    CIS 181 Final Project
+
+    Site Style Sheet
+    Author: Natalie Schnelle
+    Date: 07/09/2026
+    Filename: lille-styles.css
+
+    This file contains all styles for the site.
+*/
+
+/* Typographic Styles */
+body {
+    font-family: "Garamond";
+    font-size: 16px;
+    color: #251351;
+    background-color: #EDDFEF;
+    line-height: 1.2em;
+}
+h1, h2, h3 {
+    font-family: "Montserrat";
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #FFF;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+#copyright {
+    text-align: center;
+}
+.bottom-navigation, .top-navigation {
+    font-family: "Montserrat";
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+    color: white;
+}
+li {
+    list-style-position: inside;
+}
+a:link, a:hover {
+    color: #B5BA72;
+}
+a:visited, a:active {
+    color: #EDDFEF;
+}
+.new-lang {
+    font-style: italic;
+}
+figcaption {
+    font-family: "Montserrat";
+    font-size: 0.8em;
+}
+dt {
+    font-family: "Montserrat";
+    font-size: 1.1em;
+}
+.citation-ital {
+    font-style: italic;
+}
+
+/* Structural Styles */
+footer, #header-bar {
+    background-color: #7D6F86;
+    padding: 1em;
+    color: white;
+}
+.lim-width {
+    width: 75%;
+    max-width: 1024px;
+    margin: 0em auto;
+}
+nav.lim-width {
+    display: flex;
+    gap: 2em;
+}
+nav h2 {
+    flex: 1 0 25%;
+}
+nav.lim-width ul {
+    flex: 1 1 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3em;
+}
+nav.lim-width li {
+    flex: 0 1 auto;
+}
+.hero {
+    padding: 8em;
+    background-size: cover;
+}
+#home-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(images/grand-place-wide.jpg);
+    background-position: 0% 70%;
+}
+#history-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(images/vieille-bourse-wide.jpg);
+    background-position: 0% 50%;
+}
+#poi-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(images/notre-dame-treille.jpg);
+    background-position: 0% 15%;
+}
+#about-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/natalie-sunset.jpg);
+    background-position: 0% 45%;
+}
+.content-2c-container, div.footer-2c-container {
+    display: flex;
+    gap: 2em;
+}
+.content-2c-item {
+    flex: 1 1 50%;
+}
+.sources {
+    flex: 0 1 75%;
+}
+.bottom-navigation {
+    flex: 0 1 25%;
+}
+.content-section {
+    margin: 1em auto;
+}
+p {
+    margin: 0.5em auto;
+}
+img {
+    width: 100%;
+}
+dl {
+    display: flex;
+    gap: 2em;
+}
+.dl-item {
+    flex: 1 1 25%;
+}
+dt {
+    padding-bottom: 0.3em;
+}
+.poi-list {
+    margin: 4em auto;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    text-align: left;
+}
+th {
+    font-family: "Montserrat";
+    font-size: 1.1em;
+    vertical-align: top;
+    border-bottom: 1px solid #251351;
+}
+.city {
+    width: 10%;
+}
+.distance {
+    width: 25%;
+    padding-right: 1em;
+}
+td {
+    border-bottom: 1px solid #25135150;
+}
+tr:last-of-type td {
+    border-bottom: none;
+}
