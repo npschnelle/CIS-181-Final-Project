@@ -13,14 +13,14 @@
 
 /* Typographic Styles */
 body {
-    font-family: "Garamond";
+    font-family: "Garamond", serif;
     font-size: 16px;
     color: #251351;
     background-color: #EDDFEF;
     line-height: 1.2em;
 }
 h1, h2, h3 {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 h1 {
     font-size: 4em;
@@ -35,7 +35,7 @@ h2 {
     text-align: center;
 }
 .bottom-navigation, .top-navigation {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 nav a:link, nav a:visited, nav a:hover, nav a:active {
     color: white;
@@ -53,11 +53,11 @@ a:visited, a:active {
     font-style: italic;
 }
 figcaption {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 0.8em;
 }
 dt {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1em;
 }
 .citation-ital {
